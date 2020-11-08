@@ -85,6 +85,8 @@ header {
 
 header .logo {
   border-right: 1px solid #DCE0E0;
+  display: block;
+  float: left;
 }
 
 .hero img {
@@ -262,7 +264,6 @@ header .logo {
   /*
    * .details styles
   */
-
   .details .main {
     width: 690px;
   }
@@ -286,7 +287,6 @@ header .logo {
   /*
    * photo styles
   */
-
   .details .photos {
     text-align: center;
   }
@@ -297,7 +297,33 @@ header .logo {
     margin: 0 0.85rem;
   }
 
+  .navigation-bar {
+    float: right;
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
 
+  .large ul {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .large li {
+    margin-right: 0.525rem;
+  }
+
+  .veggieburger {
+    float: right;
+    font-size: 2.5rem;
+    padding: 0 .45rem;
+  }
+
+  .veggieburger a {
+    text-decoration: none;
+    color: rgb(255, 90, 95);
+    display: none;
+  }
 }
 
 
