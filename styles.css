@@ -1,0 +1,34 @@
+.btn {
+    border-radius: 10px;
+    background: green;
+    color: white;
+    box-shadow: none !important;
+}
+
+.btn:focus{
+    outline: none !important;
+}
+
+.btn:hover {
+    color: rgb(134, 218, 218);
+}
+
+.container {
+    max-width: 600px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-mssg {
+    text-align: center;
+    margin: 20px auto;
+
+
+}
